@@ -1,7 +1,7 @@
 // サービスワーカー：電波が無いときでもアプリの画面を表示できるようにする仕組み。
 // アプリの画面ファイル（HTML・プログラム・アイコン）を iPhone の中に保存しておく。
 // ※ ノートの中身は対象外（ノートはアプリ側で別に保存している）
-const CACHE = 'nb-app-v1'
+const CACHE = 'nb-app-v3'
 
 self.addEventListener('install', () => self.skipWaiting())
 self.addEventListener('activate', (e) => {
